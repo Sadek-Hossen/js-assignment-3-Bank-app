@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>bank app</title>
+</head>
+<body>
+ <!-- dasbord -->
+  <div class="w-[80%] mx-auto bg-blue-500 rounded-2xl px-[100px] py-[100px] pt-4" >
+    <h1 class="font-bold text-2xl text-center font-mono"> Flower Bank App  </h1><br> <h2>User Interface</h2><p>Dashboard</p>
+    <!-- main div  start desbord-->
+    <div  class=" gap-[20px] grid grid-cols-2 w-[100%] mx-auto">
+      <!-- left side -->
+      <div>
+  <div class=" flex gap-[20px] mx-auto mt-[20px] justify-around items-center  bg-gray-400 px-4 py-3 rounded-2xl ">
+      <p>Current Blance :</p>
+      <button id="currentBlans" class="bg-gray-500 rounded-2xl px-3.5 py-1 text-white">0</button><p>Tk</p>
+
+    </div>
+  <div class=" flex gap-[20px] mx-auto mt-[20px] justify-around items-center  bg-gray-400 px-4 py-3 rounded-2xl ">
+      <input type="text" id="withdInput" class="bg-amber-50 border-none rounded-[10px] px-3 outline-none" placeholder="Withdrow money">
+      <button id="withdrwoBtn" class="bg-gray-500 rounded-2xl px-3.5 py-1 hover:bg-gray-300 hover:text-black transition-all text-white">Withdrow</button>
+
+    </div>
+      </div>
+
+      <!-- right side -->
+      <div>
+     <div class=" flex gap-[20px] mx-auto mt-[20px] justify-around items-center  bg-gray-400 px-4 py-3 rounded-2xl ">
+      <input type="text" id="addBlanceInpt" class="bg-amber-50 border-none rounded-[10px] px-3 outline-none" placeholder="Add money">
+      <button id="" ><i id="addBtn" class="fa-solid fa-plus bg-gray-500 rounded-2xl px-3.5 py-1 hover:bg-gray-300 hover:text-black transition-all text-white"></i></button>
+
+    </div>
+     <div class=" flex gap-[20px] mx-auto mt-[20px] justify-around items-center  bg-gray-400 px-4 py-3 rounded-2xl ">
+      <p>Transaction History</p>
+      <button id="histury" class="bg-gray-500 rounded-2xl px-3.5 py-1 hover:bg-gray-300 hover:text-black transition-all text-white"><i class="fa-solid fa-plus"></i></button>
+
+    </div>
+      </div>
+    </div>
+    <!-- desbord end -->
+  
+   
+  </div>
+ <!-- Add Money Interface -->
+  <div class="w-[80%] mx-auto bg-blue-500 rounded-2xl px-[100px] py-[100px] pt-4" >
+    <h1 class="font-bold text-2xl text-center font-mono">  Add Money Interface</h1>
+    <!-- main div  start desbord-->
+    <div  class=" w-[100%] mx-auto">
+      <!-- left side -->
+  
+  <div class=" flex gap-[20px] mx-auto mt-[20px] justify-around items-center  bg-gray-400 px-4 py-3 rounded-2xl ">
+      <input type="text" id="addBlance" class="bg-amber-50 border-none rounded-[10px] px-3 outline-none" placeholder="Add money">
+      <button id="currentBlans" class="bg-gray-500 rounded-2xl px-3.5 py-1 hover:bg-gray-300 hover:text-black transition-all text-white"><i class="fa-solid fa-plus"></i></button>
+
+    </div>
+
+  
+  
+    </div>
+    <!-- desbord end -->
+  
+   
+  </div>
+  <script type="module ." src="script.js"></script>
+</body>
+</html>
